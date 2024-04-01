@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+}
+
+.registraton {
+        width: 50%;
+    padding-top: 31px;
+    padding-left: 42px;
+    padding-bottom: 114px;
+}
+
+.website {
+   
+    width: 50%;
+    border-radius: 15px;
+    background: rgb(0, 8, 66);
+    padding-left: 98px;
+    padding-bottom: 96px;
+    padding-top: 24px;
+    padding-right: 32px;
+}
+
+.logo {
+    margin: 0;
+    margin-bottom: 89px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.hide{
+    display:none;
+}
+.signin {
+    max-width: 431px;
+    margin: auto;
+    }
+
+.signup{
+    max-width: 430px;
+    margin: auto;
+    }
+
+.signin__title {
+    margin: 0;
+    margin-bottom: 22px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.signin__descr {
+    margin: 0;
+    margin-bottom: 6px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signin__link {
+    margin: 0;
+    margin-bottom: 52px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.signin__tosignup {
+    border: none;
+    background-color: transparent;
+    color: rgb(12, 33, 193);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form {
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+
+
+}
+
+.label__email {
+    margin-bottom: 12px;
+}
+
+.label__pass {
+    margin-bottom: 9px;
+}
+
+.form__input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(153, 153, 153);
+    padding-bottom: 9px;
+    padding-left: 29px;
+    margin-bottom: 42px;
+}
+
+.email__img {
+    background-image: url(./img/email.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+
+.pass_img {
+    background-image: url(./img/padlock1.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+
+.username_img{
+    background-image: url(./img/user1.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    }
+
+.Login__btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 32px;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(12, 33, 193);
+    padding-top: 14px;
+    padding-bottom: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.register_btn{
+    border: none;
+    background-color: transparent;
+    border-radius: 32px;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(12, 33, 193);
+    padding-top: 14px;
+    padding-bottom: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.signin__continue {
+    margin: 0;
+    margin-bottom: 31px;
+    color: rgb(181, 181, 181);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.signin__images {
+    max-width: 165px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+
+.website__tell {
+    display: block;
+    max-width: 144px;
+    margin-left: auto;
+    padding-left: 20px;
+    background-image: url(./img/phone-call1.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.website__img {
+    margin: auto;
+    margin-bottom: 84px;
+}
+
+.website__title {
+    margin: 0;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.website__desr {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
